@@ -1,0 +1,58 @@
+/* GENERAL STYLES - START*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "lato", sans-serif;
+    color:#291;
+    margin: 0;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+2
+ 
+/* GENERAL STYLES - END  */    
+
+nav#main-nav {
+    position: fixed;
+    background-color: darkred;
+    top:0;
+    right: 0;
+}
+
+nav#main-nav > ul {
+    float: right;
+    margin: 0;
+}
+
+nav#main-nav > ul > li {
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+nav#main-nav >ul >li > a {
+    text-decoration: none;
+    color:#1ac056;
+    font-weight: 300;
+}
+
+nav#main-nav > ul > li a:hover {
+    color:#291f1a;
+}
+
+
+/* MAIN HEADER - START */    
+header#main-header {
+    background-image: url("../img/header-background.jpg);
+}
+    
+    
+    
+    
+
+
